@@ -11,12 +11,17 @@ export default function Home() {
 
   return (
     <RootLayout darkMode={darkMode}>
-      <Navbar />
+   <div className=" ">
 
-      <main className=" mt-60 relative">
-     
-        <LogoPhrase/>
-      </main>
+  <div className="  flex items-center justify-end">
+  <Navbar />
+  </div>
+
+<main className= " mt-60 relative">
+
+  <LogoPhrase/>
+</main>
+   </div>
     </RootLayout>
   );
 }

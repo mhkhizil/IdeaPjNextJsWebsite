@@ -20,19 +20,6 @@
 .dark-theme {
   @apply dark;
 }
-.clipping {
-  width: 600px; /* Adjust the width */
-  height: 600px; /* Adjust the height */
-  
-  -moz-border-radius: 300px; /* Adjust the radius */
-  -webkit-border-radius: 300px; /* Adjust the radius */
-  border-radius: 300px; /* Adjust the radius */
-  position: absolute;
-  bottom: -150px;
-  left: -220px;
-    
- 
 
-}
 
 

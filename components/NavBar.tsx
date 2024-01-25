@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className=" mt-[51px] me-[68px] fixed top-0 right-0  bg-transparent z-50 ">
+    <div className="   mt-[51px] me-[110px] fixed top-0 right-0  bg-transparent z-50 ">
       {/* Your navigation content goes here */}
       <nav className="">
         <ul className="flex items-center w-[228px]   justify-around ">
