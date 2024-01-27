@@ -1,10 +1,10 @@
 // RootLayout.tsx
 
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import {  Montserrat } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets:['cyrillic'] ,style: ['normal', 'italic']});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${
-          inter.className
+          montserrat.className
         } ${darkMode ? "dark-theme" : ""}   bg-textColor`}
        
       >
