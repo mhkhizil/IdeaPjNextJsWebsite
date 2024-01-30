@@ -20,6 +20,10 @@ const LogoPhrase = () => {
       </div>
 </div>
 
+
+
+
+
 </div>
      
   

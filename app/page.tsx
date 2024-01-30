@@ -4,6 +4,7 @@ import Navbar from "@/components/NavBar";
 import Image from "next/image";
 import RootLayout from "./layout";
 import LogoPhrase from "@/components/LogoPhrase";
+import '../components/scroll.style.css'
 
 import ParallaxText from "@/components/MovingText";
 
@@ -22,7 +23,9 @@ export default function Home() {
 <main className= "  h-[100vh]  mt-60 relative">
 
   <LogoPhrase/>
+  <div className='   icon-scroll'></div>
 </main>
+
 <main className=" ">
  <ParallaxText  baseVelocity={-5}>Quality over quantity   &nbsp; </ParallaxText>
 </main>
