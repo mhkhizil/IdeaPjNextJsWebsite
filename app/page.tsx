@@ -5,7 +5,7 @@ import Image from "next/image";
 import RootLayout from "./layout";
 import LogoPhrase from "@/components/LogoPhrase";
 import '../components/scroll.style.css'
-
+import SlideZoomPictures from "@/components/SlideZoomPictures";
 import ParallaxText from "@/components/MovingText";
 
 export default function Home() {
@@ -14,22 +14,25 @@ export default function Home() {
 
   return (
     <RootLayout darkMode={darkMode}>
-   <div className=" ">
+   <main className=" ">
 
   <div className="  flex items-center justify-end">
   <Navbar />
   </div>
 
-<main className= "  h-[100vh]  mt-60 relative">
+<section className= "  h-[100vh]  mt-60 relative">
 
   <LogoPhrase/>
   <div className='   icon-scroll'></div>
-</main>
+</section>
 
-<main className=" ">
+<section className=" ">
  <ParallaxText  baseVelocity={-5}>Quality over quantity   &nbsp; </ParallaxText>
-</main>
-   </div>
+</section>
+<section className=" my-10">
+  <SlideZoomPictures/>
+</section>
+   </main>
     </RootLayout>
   );
 }
