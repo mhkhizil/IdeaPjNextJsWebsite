@@ -29,9 +29,10 @@ export default function Home() {
 <section className=" ">
  <ParallaxText  baseVelocity={-5}>Quality over quantity   &nbsp; </ParallaxText>
 </section>
-<section className=" my-10">
+<section className=" mb-[300px]">
   <SlideZoomPictures/>
 </section>
+<section>jbub</section>
    </main>
     </RootLayout>
   );

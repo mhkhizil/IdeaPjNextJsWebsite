@@ -63,7 +63,7 @@ export default function ParallaxText({ children, baseVelocity = 100 }: ParallaxP
    * dynamically generated number of children.
    */
   return (
-    <div className=" mb-[500px] overflow-hidden  whitespace-nowrap flex  flex-nowrap">
+    <div className=" mb-[200px] overflow-hidden  whitespace-nowrap flex  flex-nowrap">
       <motion.div className=" whitespace-nowrap flex  flex-nowrap" style={{ x }}>
         <span className="  text-heading text-white">{children} </span>
         <span className=" text-heading text-white" >{children} </span>
