@@ -7,6 +7,7 @@ export interface ItemProps {
     top: string;
     left: string;
     dimension: string;
+   
 }
 
 const Item: React.FC<ItemProps> = ({img,top, left, dimension}) => {
